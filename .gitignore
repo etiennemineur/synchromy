@@ -1,0 +1,32 @@
+# macOS
+.DS_Store
+
+# Web build
+node_modules/
+web/dist/
+
+# Native builds
+build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+*.xcarchive
+*.saver
+*.exe
+*.scr
+*.o
+
+# Apple signing material: never commit
+*.provisionprofile
+*.mobileprovision
+*.p12
+*.cer
+*.certSigningRequest
+ExportOptions.plist
+AuthKey_*.p8
+
+# Editors
+.vscode/
+.idea/
+*.swp

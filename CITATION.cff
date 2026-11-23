@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you refer to Synchromy in a publication, please cite it as below."
+title: "Synchromy"
+abstract: "A generative drawing and music tool in which every stroke is both a shape and a sound. A tribute to Norman McLaren's 1971 film."
+type: software
+authors:
+  - family-names: Mineur
+    given-names: Etienne
+    email: etienne@etienne.design
+    website: "https://etienne.design"
+version: 1.1.0
+date-released: "2026-11-23"
+license: MIT
+url: "https://etienne.design/tools/synchromy/"
+repository-code: "https://github.com/etiennemineur/synchromy"
+keywords:
+  - generative art
+  - creative coding
+  - audiovisual
+  - web audio
+  - music

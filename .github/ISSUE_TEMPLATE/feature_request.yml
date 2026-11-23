@@ -1,0 +1,32 @@
+name: Suggestion
+description: Propose an idea or an improvement
+labels: [enhancement]
+body:
+  - type: markdown
+    attributes:
+      value: Synchromy has a deliberate visual and sonic identity, so not every idea will be taken up, but every one is read. You may write in English or in French.
+  - type: textarea
+    id: idea
+    attributes:
+      label: The idea
+      description: What would you like Synchromy to do?
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Why
+      description: The situation in which it would help.
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      multiple: true
+      options:
+        - Web
+        - macOS app
+        - macOS screen saver
+        - Apple TV
+        - Windows app or screen saver

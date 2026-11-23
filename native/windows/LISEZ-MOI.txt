@@ -1,0 +1,27 @@
+Synchromy pour Windows
+Conçu par Etienne Mineur, etienne.design/tools/synchromy
+
+Dessin et musique génératifs, en hommage à Norman McLaren. Aucune connexion, aucune installation : le programme calcule l'image et la musique en direct.
+
+L'APPLICATION : Synchromy.exe
+Double-cliquez. Synchromy s'ouvre en plein écran sur l'écran principal.
+  Échap : quitter
+  F ou F11 : plein écran ou fenêtre
+  M : couper ou rendre la musique
+  N : nouveau tableau
+
+L'ÉCONOMISEUR D'ÉCRAN : Synchromy.scr
+Clic droit sur Synchromy.scr, puis « Installer ». Windows ouvre les paramètres de l'écran de veille avec Synchromy choisi.
+Le bouton « Paramètres » règle la musique et son volume. Le moindre geste de la souris ou du clavier l'arrête.
+Pour le garder, copiez d'abord Synchromy.scr dans un dossier qui ne bougera pas (par exemple Documents), puis faites « Installer » depuis là.
+
+MUSIQUE
+Chaque tableau a sa musique. De temps en temps, « make me dance » prend la main : un set de jungle anglaise des années 90, autour de 120 bpm (parfois jusqu'à 160), fait de morceaux de quatre minutes mixés comme par un DJ, en cinq genres : ragga, atmosphérique, darkside, amen, jump-up. Les neuf motifs d'op art y sont aussi.
+
+SON
+Stéréo, ou 5.1 et 7.1 si Windows déclare une telle disposition d'enceintes (Paramètres > Son > appareil de sortie > Format / Configuration des haut-parleurs).
+
+AU PREMIER LANCEMENT
+Le programme n'est pas signé par un certificat Windows : Windows peut afficher « Windows a protégé votre ordinateur ». Cliquez « Informations complémentaires », puis « Exécuter quand même ». Il ne le demande qu'une fois.
+
+Windows 10 ou 11, 64 bits (les PC à processeur ARM le font tourner en émulation).

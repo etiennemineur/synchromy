@@ -1,0 +1,17 @@
+/* Synchromy for Mac: menus and About panel */
+"À propos de %@" = "About %@";
+"Masquer %@" = "Hide %@";
+"Masquer les autres" = "Hide Others";
+"Tout afficher" = "Show All";
+"Quitter %@" = "Quit %@";
+"Édition" = "Edit";
+"Couper" = "Cut";
+"Copier" = "Copy";
+"Coller" = "Paste";
+"Tout sélectionner" = "Select All";
+"Présentation" = "View";
+"Plein écran" = "Enter Full Screen";
+"Fenêtre" = "Window";
+"Placer dans le Dock" = "Minimize";
+"Réduire/agrandir" = "Zoom";
+"Conçu par Etienne Mineur\netienne.design\n\nHommage à Synchromy (1971), de Norman McLaren." = "Designed by Etienne Mineur\netienne.design\n\nA tribute to Synchromy (1971) by Norman McLaren.";

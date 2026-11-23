@@ -1,0 +1,36 @@
+# Xcode project description for XcodeGen (https://github.com/yonaskolb/XcodeGen):  xcodegen generate
+# The app runs the native C engine of native/engine (the .inc files are included by synchromy.c, not compiled on their own).
+# Before building, set your own Apple team (DEVELOPMENT_TEAM) and bundle identifier.
+name: SynchromyTV
+options:
+  bundleIdPrefix: design.etienne
+  deploymentTarget:
+    tvOS: "17.0"
+targets:
+  SynchromyTV:
+    type: application
+    platform: tvOS
+    sources:
+      - path: Sources
+      - path: ../engine
+        excludes: ["*.inc"]
+      - path: Resources
+        buildPhase: resources
+      - path: Assets.xcassets
+    settings:
+      base:
+        PRODUCT_NAME: Synchromy
+        PRODUCT_BUNDLE_IDENTIFIER: design.etienne.synchromy.tv
+        DEVELOPMENT_TEAM: ""
+        CODE_SIGN_STYLE: Automatic
+        INFOPLIST_FILE: Sources/Info.plist
+        HEADER_SEARCH_PATHS: "$(SRCROOT)/../engine"
+        ASSETCATALOG_COMPILER_APPICON_NAME: "App Icon & Top Shelf Image"
+        GCC_C_LANGUAGE_STANDARD: gnu11
+        GCC_OPTIMIZATION_LEVEL: "3"
+        LLVM_LTO: YES
+        CLANG_ENABLE_OBJC_ARC: YES
+        TARGETED_DEVICE_FAMILY: "3"
+        MARKETING_VERSION: "1.1"
+        CURRENT_PROJECT_VERSION: "3"
+        GCC_WARN_INHIBIT_ALL_WARNINGS: NO

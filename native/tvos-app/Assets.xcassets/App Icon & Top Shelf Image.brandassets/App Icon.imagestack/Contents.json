@@ -1,0 +1,14 @@
+{
+  "layers": [
+    {
+      "filename": "Formes.imagestacklayer"
+    },
+    {
+      "filename": "Fond.imagestacklayer"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

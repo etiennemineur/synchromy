@@ -1,0 +1,13 @@
+* text=auto eol=lf
+
+*.png  binary
+*.jpg  binary
+*.ico  binary
+*.woff2 binary
+
+# Generated sample data: collapsed in diffs, left out of language statistics
+native/engine/jg_sons.h linguist-generated=true
+
+# The web tool is one file that embeds fonts and sound banks as base64
+web/synchromy.html -diff
+web/package-lock.json linguist-generated=true

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Try Synchromy
+    url: https://etienne.design/tools/synchromy/en/
+    about: The tool, online. The About panel explains every setting.
+  - name: Security
+    url: https://github.com/etiennemineur/synchromy/security/policy
+    about: Please report security problems privately.

@@ -1,0 +1,18 @@
+{
+  "images": [
+    {
+      "idiom": "tv",
+      "scale": "1x",
+      "filename": "etagere-2320.png"
+    },
+    {
+      "idiom": "tv",
+      "scale": "2x",
+      "filename": "etagere-4640.png"
+    }
+  ],
+  "info": {
+    "author": "xcode",
+    "version": 1
+  }
+}

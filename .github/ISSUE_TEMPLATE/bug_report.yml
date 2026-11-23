@@ -1,0 +1,50 @@
+name: Bug report
+description: Something does not work as it should
+labels: [bug]
+body:
+  - type: markdown
+    attributes:
+      value: Thank you for taking the time to report a problem. You may write in English or in French.
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options:
+        - Web
+        - macOS app
+        - macOS screen saver
+        - Apple TV
+        - Windows app or screen saver
+    validations:
+      required: true
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      description: Browser and version, operating system and version, device.
+      placeholder: Safari 27.2, macOS 27.2, MacBook Pro M3
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Open the tool
+        2. Choose the Jungle style
+        3. …
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected result
+    validations:
+      required: true
+  - type: textarea
+    id: actual
+    attributes:
+      label: Actual result
+      description: Add a screenshot, a short video or the console output if you can.
+    validations:
+      required: true
